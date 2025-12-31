@@ -6,12 +6,8 @@ class Dotstate < Formula
 
   # Determine the correct binary asset based on architecture
   # URLs and SHA256s are automatically updated by GitHub Actions on release
-  if Hardware::CPU.intel?
-    url "https://github.com/serkanyersen/dotstate/releases/download/v0.1.13/dotstate-x86_64-apple-darwin.tar.gz"
-    sha256 "a507c719589fc0fe7345fc03896dd75c2d97159442fe4d9ed5dbe33f3b8d089e"
-  else
-    url "https://github.com/serkanyersen/dotstate/releases/download/v0.1.12/dotstate-aarch64-apple-darwin.tar.gz"
-    sha256 "a610589d36269f22149e47884ebfbce5abc1c80f9d18962fe1ec0539c7f8c03d"
+  @19dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+  @19dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   end
 
   # No build dependencies needed - we're using pre-built binaries
